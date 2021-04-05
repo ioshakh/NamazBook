@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C333D362619AA200066095C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C333D342619AA200066095C /* TableViewCell.swift */; };
+		3C333D372619AA200066095C /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C333D352619AA200066095C /* TableViewCell.xib */; };
+		3C333D3A2619AA3C0066095C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C333D392619AA3C0066095C /* Post.swift */; };
+		3C333D44261A01EA0066095C /* azon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C333D43261A01EA0066095C /* azon.mp3 */; };
+		3C333D47261A47680066095C /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C333D45261A47680066095C /* secondViewController.swift */; };
+		3C333D48261A47680066095C /* secondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C333D46261A47680066095C /* secondViewController.xib */; };
+		3C333D54261A627C0066095C /* secondBomdodNamaziViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C333D52261A627C0066095C /* secondBomdodNamaziViewController.swift */; };
+		3C333D55261A627C0066095C /* secondBomdodNamaziViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C333D53261A627C0066095C /* secondBomdodNamaziViewController.xib */; };
 		3CB2C67C2615E67000D36547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2C67B2615E67000D36547 /* AppDelegate.swift */; };
 		3CB2C67E2615E67000D36547 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2C67D2615E67000D36547 /* SceneDelegate.swift */; };
-		3CB2C6802615E67000D36547 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2C67F2615E67000D36547 /* ViewController.swift */; };
 		3CB2C6832615E67000D36547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB2C6812615E67000D36547 /* Main.storyboard */; };
 		3CB2C6852615E67A00D36547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB2C6842615E67A00D36547 /* Assets.xcassets */; };
 		3CB2C6882615E67A00D36547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB2C6862615E67A00D36547 /* LaunchScreen.storyboard */; };
 		3CB2C6932615E67A00D36547 /* NamazBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2C6922615E67A00D36547 /* NamazBookTests.swift */; };
 		3CB2C69E2615E67A00D36547 /* NamazBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2C69D2615E67A00D36547 /* NamazBookUITests.swift */; };
+		3CB2C6AF2615E6FF00D36547 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2C6AD2615E6FF00D36547 /* HomeViewController.swift */; };
+		3CB2C6B02615E6FF00D36547 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CB2C6AE2615E6FF00D36547 /* HomeViewController.xib */; };
+		3CB2C6B426186C6300D36547 /* FirstButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2C6B226186C6300D36547 /* FirstButtonViewController.swift */; };
+		3CB2C6B526186C6300D36547 /* FirstButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CB2C6B326186C6300D36547 /* FirstButtonViewController.xib */; };
+		3CB638F9261B53C600A89E4C /* Namoz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CB638F8261B53C600A89E4C /* Namoz.mp3 */; };
+		3CB638FB261B589F00A89E4C /* ruku.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CB638FA261B589E00A89E4C /* ruku.mp3 */; };
+		3CB638FD261B58B400A89E4C /* qiyom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CB638FC261B58B400A89E4C /* qiyom.mp3 */; };
+		3CB638FF261B6A0000A89E4C /* rukudanTurish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CB638FE261B6A0000A89E4C /* rukudanTurish.mp3 */; };
+		3CB63901261B6A0F00A89E4C /* Sajda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CB63900261B6A0F00A89E4C /* Sajda.mp3 */; };
+		3CF06EF9261B114400AE81EA /* sano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CF06EF8261B114400AE81EA /* sano.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +52,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C333D342619AA200066095C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3C333D352619AA200066095C /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		3C333D392619AA3C0066095C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3C333D43261A01EA0066095C /* azon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = azon.mp3; sourceTree = "<group>"; };
+		3C333D45261A47680066095C /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		3C333D46261A47680066095C /* secondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = secondViewController.xib; sourceTree = "<group>"; };
+		3C333D52261A627C0066095C /* secondBomdodNamaziViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondBomdodNamaziViewController.swift; sourceTree = "<group>"; };
+		3C333D53261A627C0066095C /* secondBomdodNamaziViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = secondBomdodNamaziViewController.xib; sourceTree = "<group>"; };
 		3CB2C6782615E67000D36547 /* NamazBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NamazBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB2C67B2615E67000D36547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CB2C67D2615E67000D36547 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3CB2C67F2615E67000D36547 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CB2C6822615E67000D36547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CB2C6842615E67A00D36547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CB2C6872615E67A00D36547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +73,16 @@
 		3CB2C6992615E67A00D36547 /* NamazBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NamazBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB2C69D2615E67A00D36547 /* NamazBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamazBookUITests.swift; sourceTree = "<group>"; };
 		3CB2C69F2615E67A00D36547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB2C6AD2615E6FF00D36547 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3CB2C6AE2615E6FF00D36547 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		3CB2C6B226186C6300D36547 /* FirstButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstButtonViewController.swift; sourceTree = "<group>"; };
+		3CB2C6B326186C6300D36547 /* FirstButtonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstButtonViewController.xib; sourceTree = "<group>"; };
+		3CB638F8261B53C600A89E4C /* Namoz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Namoz.mp3; sourceTree = "<group>"; };
+		3CB638FA261B589E00A89E4C /* ruku.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ruku.mp3; sourceTree = "<group>"; };
+		3CB638FC261B58B400A89E4C /* qiyom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = qiyom.mp3; sourceTree = "<group>"; };
+		3CB638FE261B6A0000A89E4C /* rukudanTurish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rukudanTurish.mp3; sourceTree = "<group>"; };
+		3CB63900261B6A0F00A89E4C /* Sajda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sajda.mp3; sourceTree = "<group>"; };
+		3CF06EF8261B114400AE81EA /* sano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sano.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +110,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C333D332619AA080066095C /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				3C333D342619AA200066095C /* TableViewCell.swift */,
+				3C333D352619AA200066095C /* TableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		3C333D382619AA270066095C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C333D392619AA3C0066095C /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C333D3B2619DE050066095C /* Erkaklar Namozi */ = {
+			isa = PBXGroup;
+			children = (
+				3C333D49261A61160066095C /* Bomdod */,
+				3C333D45261A47680066095C /* secondViewController.swift */,
+				3C333D46261A47680066095C /* secondViewController.xib */,
+			);
+			path = "Erkaklar Namozi";
+			sourceTree = "<group>";
+		};
+		3C333D402619FE000066095C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3CB638FC261B58B400A89E4C /* qiyom.mp3 */,
+				3CB638FA261B589E00A89E4C /* ruku.mp3 */,
+				3CF06EF8261B114400AE81EA /* sano.mp3 */,
+				3CB638F8261B53C600A89E4C /* Namoz.mp3 */,
+				3C333D43261A01EA0066095C /* azon.mp3 */,
+				3CB638FE261B6A0000A89E4C /* rukudanTurish.mp3 */,
+				3CB63900261B6A0F00A89E4C /* Sajda.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		3C333D49261A61160066095C /* Bomdod */ = {
+			isa = PBXGroup;
+			children = (
+				3C333D402619FE000066095C /* Sounds */,
+				3C333D52261A627C0066095C /* secondBomdodNamaziViewController.swift */,
+				3C333D53261A627C0066095C /* secondBomdodNamaziViewController.xib */,
+			);
+			path = Bomdod;
+			sourceTree = "<group>";
+		};
 		3CB2C66F2615E67000D36547 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +184,13 @@
 		3CB2C67A2615E67000D36547 /* NamazBook */ = {
 			isa = PBXGroup;
 			children = (
+				3C333D3B2619DE050066095C /* Erkaklar Namozi */,
+				3CB2C6B126186BE400D36547 /* Tahorat */,
+				3CB2C6AC2615E6D500D36547 /* HomeViewController */,
 				3CB2C67B2615E67000D36547 /* AppDelegate.swift */,
 				3CB2C67D2615E67000D36547 /* SceneDelegate.swift */,
-				3CB2C67F2615E67000D36547 /* ViewController.swift */,
-				3CB2C6812615E67000D36547 /* Main.storyboard */,
-				3CB2C6842615E67A00D36547 /* Assets.xcassets */,
-				3CB2C6862615E67A00D36547 /* LaunchScreen.storyboard */,
 				3CB2C6892615E67A00D36547 /* Info.plist */,
+				3CB2C6AB2615E68300D36547 /* AppUtils */,
 			);
 			path = NamazBook;
 			sourceTree = "<group>";
@@ -126,6 +211,36 @@
 				3CB2C69F2615E67A00D36547 /* Info.plist */,
 			);
 			path = NamazBookUITests;
+			sourceTree = "<group>";
+		};
+		3CB2C6AB2615E68300D36547 /* AppUtils */ = {
+			isa = PBXGroup;
+			children = (
+				3CB2C6812615E67000D36547 /* Main.storyboard */,
+				3CB2C6862615E67A00D36547 /* LaunchScreen.storyboard */,
+				3CB2C6842615E67A00D36547 /* Assets.xcassets */,
+			);
+			path = AppUtils;
+			sourceTree = "<group>";
+		};
+		3CB2C6AC2615E6D500D36547 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3CB2C6AD2615E6FF00D36547 /* HomeViewController.swift */,
+				3CB2C6AE2615E6FF00D36547 /* HomeViewController.xib */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		3CB2C6B126186BE400D36547 /* Tahorat */ = {
+			isa = PBXGroup;
+			children = (
+				3C333D382619AA270066095C /* Models */,
+				3C333D332619AA080066095C /* cell */,
+				3CB2C6B226186C6300D36547 /* FirstButtonViewController.swift */,
+				3CB2C6B326186C6300D36547 /* FirstButtonViewController.xib */,
+			);
+			path = Tahorat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +347,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB638FF261B6A0000A89E4C /* rukudanTurish.mp3 in Resources */,
+				3CB638FD261B58B400A89E4C /* qiyom.mp3 in Resources */,
 				3CB2C6882615E67A00D36547 /* LaunchScreen.storyboard in Resources */,
+				3CB63901261B6A0F00A89E4C /* Sajda.mp3 in Resources */,
+				3CF06EF9261B114400AE81EA /* sano.mp3 in Resources */,
+				3C333D372619AA200066095C /* TableViewCell.xib in Resources */,
+				3CB638F9261B53C600A89E4C /* Namoz.mp3 in Resources */,
+				3C333D44261A01EA0066095C /* azon.mp3 in Resources */,
+				3CB638FB261B589F00A89E4C /* ruku.mp3 in Resources */,
 				3CB2C6852615E67A00D36547 /* Assets.xcassets in Resources */,
+				3C333D48261A47680066095C /* secondViewController.xib in Resources */,
 				3CB2C6832615E67000D36547 /* Main.storyboard in Resources */,
+				3CB2C6B02615E6FF00D36547 /* HomeViewController.xib in Resources */,
+				3CB2C6B526186C6300D36547 /* FirstButtonViewController.xib in Resources */,
+				3C333D55261A627C0066095C /* secondBomdodNamaziViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +386,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CB2C6802615E67000D36547 /* ViewController.swift in Sources */,
+				3C333D362619AA200066095C /* TableViewCell.swift in Sources */,
+				3C333D47261A47680066095C /* secondViewController.swift in Sources */,
 				3CB2C67C2615E67000D36547 /* AppDelegate.swift in Sources */,
+				3CB2C6B426186C6300D36547 /* FirstButtonViewController.swift in Sources */,
+				3C333D3A2619AA3C0066095C /* Post.swift in Sources */,
+				3C333D54261A627C0066095C /* secondBomdodNamaziViewController.swift in Sources */,
 				3CB2C67E2615E67000D36547 /* SceneDelegate.swift in Sources */,
+				3CB2C6AF2615E6FF00D36547 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

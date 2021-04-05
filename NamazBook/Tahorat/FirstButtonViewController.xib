@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstButtonViewController" customModule="NamazBook" customModuleProvider="target">
+            <connections>
+                <outlet property="tableViewLabel" destination="Pnx-22-HqS" id="hym-qS-A0R"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iuK-Rl-Vso">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FGu-57-NoX">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="H6e-wY-P7c">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8W2-5l-EjA">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
+                                            <subviews>
+                                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Pnx-22-HqS">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="800"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                </tableView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="Pnx-22-HqS" firstAttribute="top" secondItem="8W2-5l-EjA" secondAttribute="top" id="5IF-wL-tsA"/>
+                                                <constraint firstItem="Pnx-22-HqS" firstAttribute="leading" secondItem="8W2-5l-EjA" secondAttribute="leading" id="C6s-98-ZCP"/>
+                                                <constraint firstAttribute="trailing" secondItem="Pnx-22-HqS" secondAttribute="trailing" id="F8T-cp-Rto"/>
+                                                <constraint firstAttribute="bottom" secondItem="Pnx-22-HqS" secondAttribute="bottom" id="xjG-5d-gst"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="800" id="OEG-NR-JWJ"/>
+                                    </constraints>
+                                </stackView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZPf-79-mSX">
+                                    <rect key="frame" x="0.0" y="810" width="414" height="690"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ZNw-sT-Xie">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="690"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Duo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0nc-yi-nXe">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                                                    <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="we0-yA-jMY"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="31"/>
+                                                    <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5K-Or-49y">
+                                                    <rect key="frame" x="0.0" y="75" width="414" height="615"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <mutableString key="text"> Tahorat qilib bo'lganda keyin  shahodat kalimasini va rivoyatda kelgan duo o'qiladi: Ashhadu alla ilaaha illallohu vahdahu laa shariyka lahu. Va ashhadu anna Muhammadan abduhu va Rasuluhu.Ma'nosi : Guvohlik beramanki , Allohdan  boshqa iloh(ibodatga sazovor zot ) yo'q. U yolg'izdir, Uning sherigi yo'q. Yana guvohlik beramanki , Muhammad (sollallohu alayhi vasallam) Uning bandasi va Rasulidir. Duo :  Allohummaj'alnii minat-tavvabiyna vaj'alnii minal mutatohhiriyn. Duoning ma'nosi : "Allohim , meni tavba qiluvchilardan va poklanuvchilardan qilgin."</mutableString>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="26"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="0nc-yi-nXe" secondAttribute="trailing" id="acU-6r-p5N"/>
+                                                <constraint firstAttribute="trailing" secondItem="T5K-Or-49y" secondAttribute="trailing" id="de5-T0-pHk"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="ZNw-sT-Xie" firstAttribute="top" secondItem="ZPf-79-mSX" secondAttribute="top" id="Rbi-zQ-o6i"/>
+                                        <constraint firstAttribute="trailing" secondItem="ZNw-sT-Xie" secondAttribute="trailing" id="WAw-Of-KVZ"/>
+                                        <constraint firstItem="ZNw-sT-Xie" firstAttribute="leading" secondItem="ZPf-79-mSX" secondAttribute="leading" id="YRd-jv-5bd"/>
+                                        <constraint firstAttribute="height" constant="690" id="bHH-NA-kGK"/>
+                                        <constraint firstAttribute="bottom" secondItem="ZNw-sT-Xie" secondAttribute="bottom" id="ovl-OW-8L5"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="FGu-57-NoX" firstAttribute="leading" secondItem="iuK-Rl-Vso" secondAttribute="leading" id="2Hw-yz-Tq7"/>
+                        <constraint firstAttribute="trailing" secondItem="FGu-57-NoX" secondAttribute="trailing" id="OAz-TH-lfF"/>
+                        <constraint firstItem="FGu-57-NoX" firstAttribute="top" secondItem="iuK-Rl-Vso" secondAttribute="top" id="h2O-XW-3ll"/>
+                        <constraint firstAttribute="bottom" secondItem="FGu-57-NoX" secondAttribute="bottom" id="uPB-I5-uRM"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="iuK-Rl-Vso" secondAttribute="bottom" id="0cG-jm-ySP"/>
+                <constraint firstItem="iuK-Rl-Vso" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="8EI-tZ-AUN"/>
+                <constraint firstItem="FGu-57-NoX" firstAttribute="width" secondItem="fnl-2z-Ty3" secondAttribute="width" id="9Cd-F4-qJb"/>
+                <constraint firstItem="iuK-Rl-Vso" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="VCw-hR-d3Q"/>
+                <constraint firstItem="iuK-Rl-Vso" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hVI-5I-8mW"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="143" y="134"/>
+        </view>
+    </objects>
+</document>
